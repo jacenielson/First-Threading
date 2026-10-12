@@ -6,6 +6,9 @@ using System;
 using System.Diagnostics;
 using System.Threading;
 
+namespace VersionC
+{
+    
 class Program
 {
     const int Iterations = 10_000_000;
@@ -68,4 +71,5 @@ class Program
 
         Console.WriteLine($"{label,-22} balance = {balance,10:N0}   time = {stopwatch.ElapsedMilliseconds,5} ms   ({verdict})");
     }
+}
 }
