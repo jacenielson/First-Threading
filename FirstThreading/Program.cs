@@ -60,7 +60,7 @@ namespace TicketSystem
             }
             Task.WaitAll(customers);
             Console.WriteLine($"Expected Tickets Sold: 1,000");
-            Console.WriteLine($"Actual Tickets Sold:   {ticketsSoldNoLock:N0} (Race condition lost updates!)");
+            Console.WriteLine($"Actual Tickets Sold:   {ticketsSoldNoLock:N0}");
         }
 
         // Lock vs Interlocked
@@ -124,7 +124,7 @@ namespace TicketSystem
                     }
                     else
                     {
-                        Console.WriteLine($"[{customerName}] Reservation failed — seats taken.");
+                        Console.WriteLine($"[{customerName}] Reservation failed — seats taken. \n" );
                     }
                 }
             }
