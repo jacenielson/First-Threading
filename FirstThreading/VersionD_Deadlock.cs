@@ -65,7 +65,7 @@ namespace VersionD
         {
             Log($"wants to move ${amount} from {from.Name} to {to.Name}");
 
-            Account first = from.Id < to.Id ? from : to;
+            Account first = from.Id < to.Id ? from : to;                    //These lines make it so the threads must acquire the locks in the same deterministic order
             Account second = from.Id < to.Id ? to : from;
 
             lock (first.Lock)

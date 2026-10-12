@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstThreading")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d760bbbb8758b92e6e3231dc87e408aa9491096e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+221a5f7a1937a1d2026cb7df041e23aa1a7bad49")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstThreading")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstThreading")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
